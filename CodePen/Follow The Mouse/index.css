@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+
+    box-sizing:border-box;
+
+    cursor:none;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+
+    background:#131313;
+}
+
+.lerpme{
+    position:absolute;
+
+    border-radius: 50%;
+}
+
+#el1{
+    width:15px;
+    height:15px;
+
+    background:#FDC34A;
+}
