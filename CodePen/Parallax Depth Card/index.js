@@ -18,6 +18,8 @@ $(document).ready(function(){
 
         $(this).css('transform',`perspective(800px) rotateX(${-mousePY*30}deg) rotateY(${mousePX*30}deg)`);
         $(this).find('.bg').css('transform',`translateX(${-mousePX*40}px) translateY(${-mousePY*40}px)`);
+
+        console.log(mousePX);
     });
 
     $('.card').on('mouseleave',function(){
